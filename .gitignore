@@ -1,0 +1,61 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/public
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.idea/
+!.idea/codeStyles/codeStyleConfig.xml
+!.idea/codeStyles/Project.xml
+!.idea/prettier.xml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.angulardoc.json
+.env
+pnpm-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# json-server config
+db.json
+routes.json
+
+# drone docker tag file
+.tags
+
+.cache/
+apps/*-e2e/mochawesome-report/*
+apps/*-e2e/results/
+storybook-static/
+icons/icons-sprite.svg
+*.mpkg
